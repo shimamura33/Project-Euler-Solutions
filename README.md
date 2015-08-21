@@ -1,0 +1,2 @@
+# Euler
+Project Euler + Thoughts
