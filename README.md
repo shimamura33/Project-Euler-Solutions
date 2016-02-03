@@ -1,7 +1,10 @@
 # Euler
-Project Euler + Thoughts
+All solutions are written on my own.
 
-Q3:
-Distribution of twin primes -> is it getting sparser as the number increases?
+Solutions written in R: Q26
+The rest are all in Python.
 
-Questions that use R: Q26
+More number theoretic problems to chew on:
+Q3: Distribution of twin primes -> is it getting sparser as the number increases?
+
+
