@@ -1,16 +1,13 @@
-# This script is so slow that I am ashamed.
+import numpy
+a = 1000000
 
-a = 50000000
-k = range(2,a)
-prime = []
-
-# generate primes
-while len(k)>0:
-	i = k[0]
-	k = [g for g in k if g%k[0] != 0]
-	prime.append(i)
-	if i**2 > a:
-		break
+def primes(n):
+    """ Returns  a list of primes < n """
+    sieve = [True] * n
+    for i in xrange(3,int(n**0.5)+1,2):
+        if sieve[i]:
+            sieve[i*i::2*i]=[False]*((n-i*i-1)/(2*i)+1)
+    return [2] + [i for i in xrange(3,n,2) if sieve[i]]
 
 # test if prime
 def is_prime(n):
