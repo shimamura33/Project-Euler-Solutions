@@ -7,7 +7,7 @@ Created on Sun Jul 13 18:41:44 2025
 """
 
 ## https://thecprojectt.blogspot.com/2014/10/square-digit-chains-problem-92-project.html
-## brute force sol
+## brute force sol, very slow
 def squareDigitChains():
     squareDigitCount = 0
     for i in range(1,10000000):
