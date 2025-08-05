@@ -5,6 +5,8 @@ Created on Tue Aug  5 14:51:09 2025
 @author: phoeb
 """
 
+### https://github.com/TheAlgorithms/Python/blob/master/project_euler/problem_062/sol1.py
+
 from collections import defaultdict
 
 
@@ -54,4 +56,5 @@ def get_digits(num: int) -> str:
 
 
 if __name__ == "__main__":
+
     print(f"{solution() = }")
